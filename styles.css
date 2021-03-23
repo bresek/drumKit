@@ -35,3 +35,8 @@ p{
   color: #FFDC00;
   font-weight: 700;
 }
+
+.playing{
+  border-color: #FFDC00;
+  transform:scale(1.2);
+}
