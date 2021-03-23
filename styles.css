@@ -1,0 +1,12 @@
+.gridContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.box{
+  text-align: center;
+  border-style: solid;
+  width: 8vw;
+}
