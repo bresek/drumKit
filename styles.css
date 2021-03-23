@@ -3,24 +3,32 @@ body{
   background-position: center;
   max-width: 100%;
   font-family: 'Noto Sans HK', sans-serif;
+  text-align: center;
+  margin:0;
 }
+h1{
+  color: #FFDC00;
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 0;
+}
+
 .gridContainer{
+  margin-top: 8rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  gap: 1vw;
+  justify-content: center;
+  gap: 2vw;
   flex-wrap: wrap;
 }
 
 
 .box{
-  background-color: rgba(8,8,8, 0.3);
-  text-align: center;
+  background-color: rgba(8,8,8, 0.5);
   border-style: solid;
   border-width: thick;
-  width: 8vw;
   border-radius: 5%;
-  margin: 0;
+
 
 }
 .key{
@@ -39,4 +47,12 @@ p{
 .playing{
   border-color: #FFDC00;
   transform:scale(1.2);
+}
+
+footer{
+  position: fixed;
+  margin:0;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(8,8,8, 1);
 }
